@@ -12,7 +12,7 @@ export const App: React.FC = () => {
         <Title />
 
         <Switch>
-          <Route component={Main} path="/" exact></Route>
+          <Route component={Main} path="/" exact />
           <Route component={Unfaithful} />
         </Switch>
       </BrowserRouter>

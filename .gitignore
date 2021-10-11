@@ -3,13 +3,15 @@
 # dependencies
 /node_modules
 /client/node_modules
+/lib
+/design
 /.pnp
 .pnp.js
 .env
+package-lock.json
 
 # testing
 /coverage
-
 # production
 /build
 
